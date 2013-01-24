@@ -1,5 +1,5 @@
 # New Project Template
-New starter template with that uses [SASS Bootstrap](https://github.com/thomas-mcdonald/bootstrap-sass), Coffee and several Grunt modules to get new projects started with a quickness.
+New starter template.
 
 ## Grunt
 Requires global [grunt-cli](https://github.com/gruntjs/grunt-cli) and grunt version 0.4.0rc7 installed in this project. 
@@ -17,5 +17,10 @@ Requires global [grunt-cli](https://github.com/gruntjs/grunt-cli) and grunt vers
  * [grunt-contrib-htmlmin](https://github.com/gruntjs/grunt-contrib-htmlmin)
  * [grunt-contrib-imagemin](https://github.com/gruntjs/grunt-contrib-imagemin)
 
- ## Workflow
- The buildout should occur in the app/dev directory. A
+### Bower Packages
+
+* [Bootstrap-Sass](https://github.com/thomas-mcdonald/bootstrap-sass)
+* JQuery 
+
+## Workflow
+The buildout should occur in the app/dev directory.
