@@ -25,12 +25,12 @@ module.exports = function(grunt) {
       },
       concat: {
         options: {
-          separator: ';',
+          // separator: ';',
           stripBanners: true
         },
         dist: {
           src: [
-            'app/dev/components/jquery/jquery.min.js',
+            'app/dev/components/jquery/jquery.js',
             'app/dev/component(8)/bootstrap-sass/vendor/assets/javascripts/bootstrap-transition.js',
             'app/dev/components/bootstrap-sass/vendor/assets/javascripts/bootstrap-alert.js',
             'app/dev/components/bootstrap-sass/vendor/assets/javascripts/bootstrap-button.js',
@@ -44,6 +44,7 @@ module.exports = function(grunt) {
             'app/dev/components/bootstrap-sass/vendor/assets/javascripts/bootstrap-tab.js',
             'app/dev/components/bootstrap-sass/vendor/assets/javascripts/bootstrap-typeahead.js',
             'app/dev/components/bootstrap-sass/vendor/assets/javascripts/bootstrap-affix.js'
+
             ],
           dest: 'app/public/js/main.js'
         }
@@ -58,7 +59,7 @@ module.exports = function(grunt) {
           tasks: 'sass'
         },
         concat: {
-          files: ['app/dev/components/bootstrap-sass/vendor/assets/javascripts/*'],
+          files: ['app/dev/components/jquery/*', 'app/dev/components/bootstrap-sass/vendor/assets/javascripts/*'],
           tasks: 'concat'
         }
       }

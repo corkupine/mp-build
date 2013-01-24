@@ -9,7 +9,7 @@
  * Released under the MIT license
  * http://jquery.org/license
  *
- * Date: 2013-1-14
+ * Date: 2013-1-14 
  */
 (function( window, undefined ) {
 "use strict";

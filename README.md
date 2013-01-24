@@ -22,5 +22,9 @@ Requires global [grunt-cli](https://github.com/gruntjs/grunt-cli) and grunt vers
 * [Bootstrap-Sass](https://github.com/thomas-mcdonald/bootstrap-sass)
 * JQuery 
 
-## Workflow
-The buildout should occur in the app/dev directory.
+## Issues
+
+* [Javascript not working in 2.0?](https://github.com/thomas-mcdonald/bootstrap-sass/issues/48)
+* [Bootstrap Switching to Sass Javascript Error](http://stackoverflow.com/questions/9912528/bootstrap-switching-to-sass-javascript-error)
+* [the “bootstrap-sass” doesn't work with rails 3.2.2](http://stackoverflow.com/questions/9715470/the-bootstrap-sass-doesnt-work-with-rails-3-2-2)
+* [rails-3-2-bootstrap-sass-not-installing](http://stackoverflow.com/questions/13285568/rails-3-2-bootstrap-sass-not-installing)
