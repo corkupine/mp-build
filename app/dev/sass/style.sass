@@ -1,0 +1,36 @@
+// $gridColumns:             24 !default;
+// $gridColumnWidth:         30px !default;
+// $gridGutterWidth:         5px !default;
+@import 'typography'
+
+html
+	background: #ccc url(../images/grid.png) top center repeat-y   
+body
+	background-color: transparent
+header
+	background-color: #4b87b8
+	color: #fff
+	a, form
+		color: #95ccf5
+#strap
+	background-color: #ccdfef
+	p
+		line-height: 50px 
+		margin: 0
+#content
+	padding: 40px 0
+footer
+	border-top: #ccdfef 1px solid
+	padding: 10px 0
+	p, li 
+		line-height: 30px
+	#help-nav
+		text-align: right
+		li
+			display: inline
+			font-size: 10px
+			&:after
+				content: " | "
+			&:last-child
+				&:after
+					content: "" 

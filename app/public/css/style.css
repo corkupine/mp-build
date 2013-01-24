@@ -1,0 +1,48 @@
+h1, h2, h3, h4, h5, h6 {
+  color: #222222;
+  letter-spacing: -1.5px; }
+
+p {
+  color: #777777; }
+
+a:link, a:visited {
+  color: #067e17;
+  text-decoration: underline; }
+a:hover {
+  text-decoration: none; }
+
+html {
+  background: #cccccc url(../images/grid.png) top center repeat-y; }
+
+body {
+  background-color: transparent; }
+
+header {
+  background-color: #4b87b8;
+  color: white; }
+  header a, header form {
+    color: #95ccf5; }
+
+#strap {
+  background-color: #ccdfef; }
+  #strap p {
+    line-height: 50px;
+    margin: 0; }
+
+#content {
+  padding: 40px 0; }
+
+footer {
+  border-top: #ccdfef 1px solid;
+  padding: 10px 0; }
+  footer p, footer li {
+    line-height: 30px; }
+  footer #help-nav {
+    text-align: right; }
+    footer #help-nav li {
+      display: inline;
+      font-size: 10px; }
+      footer #help-nav li:after {
+        content: " | "; }
+      footer #help-nav li:last-child:after {
+        content: ""; }
